@@ -25,3 +25,11 @@ F
 .shopifyignore,6\c\6c3349c494d19afb2af730498c5a58ed7e0e1fb3
 F
 sections/header.liquid,5\e\5e930ff2c16526fb3211e700082988e158225558
+B
+templates/404.json,c\8\c8ad6698c3bd4c183c17572c045f83cb313c0112
+L
+sections/template-404.liquid,f\d\fde4ac99a5d5f641eb3fe5d5c8c1732251dd5de5
+F
+templates/article.json,6\1\612852f197f6f121bd9ebeb219e9935832197735
+P
+ sections/template-article.liquid,0\4\047e675be9a5b4043180c5b2eaa50493b475790a
