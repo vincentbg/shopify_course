@@ -33,6 +33,9 @@
         {% endfor %}
       </div>
     </div>
+    <div class="max-w-6xl mx-auto">
+      {% render 'pagination', pagination: paginate %}
+    </div>
   {% endpaginate %}
 </div>
 {% schema %}
@@ -41,7 +44,7 @@
   "settings": [
     {
       "type": "range",
-      "id": "number_of_blog_post",
+      "id": "number_of_blog_posts",
       "step": 1,
       "min": 1,
       "max": 6,
