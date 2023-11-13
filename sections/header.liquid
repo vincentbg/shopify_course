@@ -1,4 +1,4 @@
-{% assign main_menu_linklists = linklists[section.settings.menu].links %}
+{% assign main_menu_linklists = linklists.backup_menu.links %}
 
 <div class="relative bg-white" x-data="{ mobileMenuOpen: false }">
   <div class="mx-auto px-4 sm:px-6">
@@ -152,9 +152,8 @@
     },
     {
       "type": "link_list",
-      "id": "menu",
-      "label": "Header menu",
-      "default": "main-menu"
+      "id": "backup_menu",
+      "label": "Header menu"
     }
   ]
 }
